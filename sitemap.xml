@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sitemap. OWNER TO SUPPLY: replace https://REPLACE-WITH-YOUR-DOMAIN with the real
+     canonical domain (same value as canonicalDomain in assets/js/config.js). -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://REPLACE-WITH-YOUR-DOMAIN/index.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://REPLACE-WITH-YOUR-DOMAIN/work/index.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://REPLACE-WITH-YOUR-DOMAIN/work/draftshot.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://REPLACE-WITH-YOUR-DOMAIN/work/dsa-buddy.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://REPLACE-WITH-YOUR-DOMAIN/work/fire-detection.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://REPLACE-WITH-YOUR-DOMAIN/work/car-dealership.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://REPLACE-WITH-YOUR-DOMAIN/work/miniledger.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://REPLACE-WITH-YOUR-DOMAIN/work/ai-army.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://REPLACE-WITH-YOUR-DOMAIN/work/portman.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://REPLACE-WITH-YOUR-DOMAIN/work/netbond.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://REPLACE-WITH-YOUR-DOMAIN/work/apex.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://REPLACE-WITH-YOUR-DOMAIN/work/stocky.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://REPLACE-WITH-YOUR-DOMAIN/about.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://REPLACE-WITH-YOUR-DOMAIN/contact.html</loc><lastmod>2026-11-13</lastmod></url>
+</urlset>

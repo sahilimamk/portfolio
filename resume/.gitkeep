@@ -1,0 +1,3 @@
+<!-- OWNER TO SUPPLY: place resume.pdf in this folder, then set
+     resumeAvailable: true in assets/js/config.js. Until then the site shows
+     "Resume PDF coming soon." and no download button. -->

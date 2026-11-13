@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+# Sitemap: add an absolute sitemap URL here once a canonical domain is supplied (OWNER TO SUPPLY).

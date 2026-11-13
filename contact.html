@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Sahil Khan</title>
+<meta name="description" content="Contact Sahil Khan about a backend or full-stack internship, or about a project. A three-step form: who you are, what you want, review and send.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact — Sahil Khan">
+<meta property="og:description" content="Contact Sahil Khan about a backend or full-stack internship, or about a project.">
+<meta property="og:image" content="assets/img/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Contact — Sahil Khan">
+<meta name="twitter:description" content="Contact Sahil Khan about a backend or full-stack internship, or about a project.">
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/print.css" media="print">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Sahil Khan","jobTitle":"Backend-leaning full-stack developer","alumniOf":{"@type":"CollegeOrUniversity","name":"Chandigarh University"},"sameAs":["https://github.com/sahilimamk","https://leetcode.com/u/sahilimamkhan098/","https://codeforces.com/profile/knight_on"]}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+<div class="cursor-label" id="cursorLabel" aria-hidden="true"></div>
+<header class="site-header"><div class="wrap header-inner">
+<a class="brand" href="index.html" aria-label="Sahil Khan — home"><svg class="knight" viewBox="0 0 16 16" width="32" height="32" role="img" aria-label="Pixel knight" shape-rendering="crispEdges"><rect x="6" y="0" width="2" height="1" fill="#8fae9b"/><rect x="5" y="1" width="4" height="1" fill="#8fae9b"/><rect x="5" y="2" width="4" height="1" fill="#8fae9b"/><rect x="4" y="3" width="6" height="1" fill="#d9c9a3"/><rect x="3" y="4" width="8" height="1" fill="#d9c9a3"/><rect x="3" y="5" width="8" height="1" fill="#d9c9a3"/><rect x="3" y="6" width="2" height="1" fill="#d9c9a3"/><rect x="5" y="6" width="4" height="1" fill="#1f2428"/><rect x="9" y="6" width="2" height="1" fill="#d9c9a3"/><rect x="3" y="7" width="8" height="1" fill="#d9c9a3"/><rect x="4" y="8" width="7" height="1" fill="#d9c9a3"/><rect x="4" y="9" width="9" height="1" fill="#d9c9a3"/><rect x="3" y="10" width="10" height="1" fill="#d9c9a3"/><rect x="2" y="11" width="12" height="1" fill="#d9c9a3"/><rect x="2" y="12" width="4" height="1" fill="#d9c9a3"/><rect x="8" y="12" width="5" height="1" fill="#d9c9a3"/><rect x="1" y="13" width="5" height="1" fill="#d9c9a3"/><rect x="8" y="13" width="6" height="1" fill="#d9c9a3"/><rect x="1" y="14" width="13" height="1" fill="#d9c9a3"/><rect x="0" y="15" width="16" height="1" fill="#d9c9a3"/></svg><span class="brand-name">SAHIL&nbsp;KHAN</span></a>
+<nav class="site-nav" aria-label="Main navigation">
+<a href="index.html">Home</a>
+<a href="work/index.html">Work</a>
+<a href="about.html">About</a>
+<a href="contact.html" aria-current="page">Contact</a>
+</nav>
+<div class="header-tools"><span class="clock" title="Current time in India"><span class="clock-label">IST</span> <time id="clock" datetime="">--:--</time></span>
+<button class="theme-toggle" id="themeToggle" type="button">Theme</button></div>
+</div></header>
+<main id="main">
+<div class="wrap">
+<h1>CONTACT</h1>
+<p class="lede">Three short steps. Nothing here is sent anywhere yet — step 3 explains exactly what happens.</p>
+
+<div class="notice" role="note">
+<p><strong>Honest status: this form has no backend yet.</strong> There is nothing to send to. Step 3 shows your composed message with a Copy button, so you can paste it wherever you reach me. The send button is labelled &ldquo;backend coming soon&rdquo; until Phase 2 ships.</p>
+</div>
+
+<form id="contactForm" novalidate>
+<ol class="form-steps" aria-label="Form progress">
+<li aria-current="step">1 &middot; Who you are</li>
+<li>2 &middot; What you want</li>
+<li>3 &middot; Review &amp; send</li>
+</ol>
+
+<div class="form-panel" id="step1" aria-labelledby="step1Title">
+<h2 id="step1Title">Step 1 — Who you are</h2>
+<label for="fName">Your name *</label>
+<input type="text" id="fName" name="name" autocomplete="name" required minlength="2" aria-describedby="errName">
+<p class="field-error" id="errName" role="alert"></p>
+<label for="fOrg">Role / company (optional)</label>
+<input type="text" id="fOrg" name="org" autocomplete="organization">
+<div class="form-actions">
+<button class="btn" type="button" data-next>Next →</button>
+</div>
+</div>
+
+<div class="form-panel" id="step2" aria-labelledby="step2Title" hidden>
+<h2 id="step2Title">Step 2 — What you want</h2>
+<p id="topicLabel">Topic * — pick one:</p>
+<div class="topic-chips" role="group" aria-labelledby="topicLabel">
+<button class="topic-chip" type="button" data-topic="Internship" aria-pressed="false">Internship</button>
+<button class="topic-chip" type="button" data-topic="DraftShot" aria-pressed="false">DraftShot</button>
+<button class="topic-chip" type="button" data-topic="DSA Buddy" aria-pressed="false">DSA Buddy</button>
+<button class="topic-chip" type="button" data-topic="Another project" aria-pressed="false">Another project</button>
+<button class="topic-chip" type="button" data-topic="Something else" aria-pressed="false">Something else</button>
+</div>
+<p class="field-error" id="errTopic" role="alert"></p>
+<label for="fMessage">Your message *</label>
+<textarea id="fMessage" name="message" rows="6" required minlength="10" aria-describedby="errMessage"></textarea>
+<p class="field-error" id="errMessage" role="alert"></p>
+<div class="form-actions">
+<button class="btn btn-ghost" type="button" data-back>← Back</button>
+<button class="btn" type="button" data-next>Review →</button>
+</div>
+</div>
+
+<div class="form-panel" id="step3" aria-labelledby="step3Title" hidden>
+<h2 id="step3Title">Step 3 — Review &amp; send</h2>
+<p>Here is your message, exactly as composed:</p>
+<div class="review-box" id="reviewBox" tabindex="0"></div>
+<div class="form-actions">
+<button class="btn" type="button" id="copyMessage">Copy message</button>
+<button class="btn btn-ghost" type="submit" disabled title="No backend yet — Phase 2">Send — backend coming soon</button>
+</div>
+<p id="copyStatus" role="status" aria-live="polite"></p>
+<p><strong>This message has not been sent.</strong> There is no backend yet. Copy it above, or reach me through one of the public links below.</p>
+<div class="form-actions">
+<button class="btn btn-ghost" type="button" data-back>← Back to edit</button>
+</div>
+</div>
+
+<!-- Honeypot field for the Phase 2 contract (POST /api/contact {name, org, topic, message, honeypot}). Humans never see it. -->
+<p class="honeypot" aria-hidden="true"><label for="fWebsite">Leave this field empty</label>
+<input type="text" id="fWebsite" name="website" tabindex="-1" autocomplete="off"></p>
+</form>
+
+<section class="fallback-links" aria-labelledby="fallbackTitle">
+<h2 id="fallbackTitle">Reach me directly</h2>
+<p>No email is published here yet. <!-- OWNER TO SUPPLY: email, if one is ever published --> Until then, these public profiles are the way to reach me:</p>
+<ul>
+<li><a href="https://github.com/sahilimamk">GitHub — sahilimamk</a></li>
+<li><a href="https://leetcode.com/u/sahilimamkhan098/">LeetCode — sahilimamkhan098</a></li>
+<li><a href="https://codeforces.com/profile/knight_on">Codeforces — knight_on</a></li>
+</ul>
+</section>
+</div>
+</main>
+<footer class="site-footer"><div class="wrap footer-inner">
+<p class="footer-name">Sahil Khan — backend-leaning full-stack developer</p>
+<nav class="footer-nav" aria-label="Footer links">
+<a href="https://github.com/sahilimamk">GitHub</a> <a href="https://leetcode.com/u/sahilimamkhan098/">LeetCode</a> <a href="https://codeforces.com/profile/knight_on">Codeforces</a> <a href="work/index.html">Work</a> <a href="about.html">About</a> <a href="contact.html">Contact</a>
+</nav>
+<p class="footer-meta">Last updated: 13 Nov 2026 &middot; <span class="clock">IST <time id="clockFooter" datetime="">--:--</time></span></p>
+</div></footer>
+<div class="coords" id="coords" aria-hidden="true">x 0000 &middot; y 0000</div>
+<script src="assets/js/config.js" defer></script>
+<script src="assets/js/data.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/cursor.js" defer></script>
+<script src="assets/js/contact-form.js" defer></script>
+</body>
+</html>
